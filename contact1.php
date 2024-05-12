@@ -84,43 +84,43 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <img src="logo.png" alt="Grapho Magic Logo" width="50" height="40" class="me-3">
-            <h2 class="m-0 text-primary">GRAPHO MAGIC</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="nlp.html" class="dropdown-item">NLP</a>
-                        <a href="graphology.html" class="dropdown-item">GRAPHOLOGY</a>
+            <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                <img src="logo.png" alt="Grapho Magic Logo" width="50" height="40" class="me-3">
+                <h2 class="m-0 text-primary">GRAPHO MAGIC</h2>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu fade-down m-0">
+                            <a href="nlp.html" class="dropdown-item">Neuro Linguistic Programming</a>
+                            <a href="graphology.html" class="dropdown-item">Hand Writing Analysis and Graphotheraphy</a>
+                        </div>
                     </div>
-                </div>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                <!-- <a href="blog.html"
-                        class="nav-item nav-link">Blogs&Review</a> -->
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blogs & Review</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="blogs.html" class="dropdown-item">Blogs</a>
-                        <a href="review.html" class="dropdown-item">Review</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blogs & Review</a>
+                        <div class="dropdown-menu fade-down m-0">
+                            <a href="blogs.html" class="dropdown-item">Blogs</a>
+                            <a href="review.html" class="dropdown-item">Review</a>
+                        </div>
                     </div>
+                    <a href="contact.php" class="nav-item nav-link">Contact
+                        Us</a>
                 </div>
-                <a href="contact.php" class="nav-item nav-link">Contact
-                    Us</a>
+                <a href="tel:+7975863955" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Call
+                    Us<i></i></a>
+                <a href="https://wa.me/7975863955" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">WhatsApp<i
+                        class="fa fa-arrow-right ms-3"></i></a>
             </div>
-            <a href="tel:+7975863955" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Call
-                Us<i></i></a>
-            <a href="https://wa.me/7975863955" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">WhatsApp<i class="fa fa-arrow-right ms-3"></i></a>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+        </nav>
+        <!-- Navbar End -->
 
     <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 page-header">
@@ -256,100 +256,95 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-1">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h3><img src="logo.png" alt height="160px"></h3>
-                    <h4 class="text-white text-center mt-3 ml-3">Grapho
-                        Magic</h4>
-                    <p class="text-center">
-                        Improve your personality, believe in yourself -
-                        Stepping stone for expected outcome --
-                        all through Handwritten courses at
-                        different levels.
-                    </p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="index.html">Home</a>
-                    <a class="btn btn-link" href="about.html">About
-                        Us</a>
-                    <a class="btn btn-link" href="gallery.html">Gallery</a>
-                    <!-- <a class="btn btn-link" href="blog.html">Blogs</a>
-                    <a class="btn btn-link" href="review.html">Review</a> -->
-                    <a class="btn btn-link" href="blogs.html">Blogs</a>
-                    <a class="btn btn-link" href="contact.php">Contact
-                        Us</a>
-
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Services</h4>
-                    <a class="btn btn-link" href="nlp.html">NLP</a>
-                    <a class="btn btn-link" href="graphology.html">Graphology</a>
+            <div class="container py-1">
+                <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-
-                        <h4 class="text-white mb-3 mt-3">Review</h4>
-                        <a class="btn btn-link" href="review.html">Review</a>
+                        <h3><img src="logo.png" alt height="160px"></h3>
+                        <h4 class="text-white text-center mt-3 ml-3">Grapho
+                            Magic</h4>
+                        <p class="text-center">
+                            Improve your personality, believe in yourself -
+                            Stepping stone for expected outcome --
+                            all through Handwritten courses at
+                            different levels.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Quick Link</h4>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="blogs.html">Blogs</a>
+                        <a class="btn btn-link" href="contact.php">Contact
+                            Us</a>
 
                     </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Services</h4>
+                        <a class="btn btn-link" href="nlp.html">Neuro Linguistic Programming</a>
+                        <a class="btn btn-link" href="graphology.html">Hand Writing Analysis and     Graphotheraphy</a>
+                        <div class="col-lg-3 col-md-6">
+
+                            <h4 class="text-white mb-3 mt-3">Review</h4>
+                            <a class="btn btn-link" href="review.html">Review</a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <h4 class="text-white mb-3">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>#90, AECS
+                            Layout, 2nd Stage, 5th Main, RMV Extension, Next to
+                            Post Office, Sanjaynagar, Bengaluru 560094.</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7975863955
+                            ,
+                            +91 9481244167</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>graphomagic2020@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://www.youtube.com/@graphomagic4315"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social"
+                                href="https://www.linkedin.com/in/chandra-shekara-n-9552642a3?originalSubdomain=in"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Newsletter</h4>
+                        <p>"Discovering What's New: Fresh Stories for Everyone!"</p>
+                        <div class="position-relative mx-auto"
+                            style="max-width: 400px;">
+                            <input
+                                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                                type="text" placeholder="Your email">
+                            <button type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div> -->
                 </div>
-                <div class="col-lg-3 col-md-4">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>#90,
-                        AECS
-                        Layout, 2nd Stage, 5th Main, RMV Extension, Next
-                        to
-                        Post Office, Sanjaynagar, Bengaluru 560094.</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91
-                        7975863955
-                        ,
-                        +91 9481244167</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>graphomagic2020@gmail.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@graphomagic4315"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/chandra-shekara-n-9552642a3?originalSubdomain=in"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-
-                <!-- <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>"Discovering What's New: Fresh Stories for Everyone!"</p>
-                    <div class="position-relative mx-auto"
-                        style="max-width: 400px;">
-                        <input
-                            class="form-control border-0 w-100 py-3 ps-4 pe-5"
-                            type="text" placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div> -->
             </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">GRAPHO
-                            MAGIC</a>, All Right Reserved.
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">GRAPHO
+                                MAGIC</a>, All Right Reserved.
 
-                        Designed By <a class="border-bottom">SS
-                            Infotech</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href>Home</a>
-                            <a href>Cookies</a>
-                            <a href>Help</a>
-                            <a href>FQAs</a>
+                            Designed By <a class="border-bottom">SS Infotech</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href>Home</a>
+                                <a href>Cookies</a>
+                                <a href>Help</a>
+                                <a href>FQAs</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer End -->
+        <!-- Footer End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
